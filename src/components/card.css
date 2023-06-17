@@ -1,0 +1,57 @@
+.card{
+    width: 70%;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 7px 35px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 35px -17px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 35px -17px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    margin: 30px;
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+     }
+    
+}
+.cardicon{
+    width: 100%;
+    height: auto;
+}
+.cardinner{
+
+    display: block;
+    flex-direction: column;
+}
+.cardinner > h1{
+    font-size: 2rem;
+
+}
+.ptag{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btnname{
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: rgb(255, 187, 0);
+    &:hover{
+        background-color: rgb(235, 235, 235);
+        border: 1px solid black ;
+        color: black;
+    }
+    &:active{
+        color: #fff;
+        background-color: rgb(255, 187, 0);
+    }
+}

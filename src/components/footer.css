@@ -1,0 +1,22 @@
+.footer {
+  background-color: #ffff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.social{
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+}
